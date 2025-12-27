@@ -166,12 +166,18 @@ but you've requested "2025-07-18". Falling back to "2025-07-12"...
       '[PLUGIN_TIMINGS] Warning:',
       // `optimizeDeps.rollupOptions` / `ssr.optimizeDeps.rollupOptions` is deprecated. Use `optimizeDeps.rolldownOptions` instead.
       'optimizeDeps.rollupOptions',
+      // You or a plugin you are using have set `optimizeDeps.esbuildOptions` but this option is now deprecated.
+      'optimizeDeps.esbuildOptions',
       // Warning: Invalid input options (1 issue found) - For the "jsx". Invalid key: Expected never but received "jsx".
       'Invalid input options',
       // Exit code 143 is SIGTERM - normal termination when stopping dev server
       'Command failed with exit code 143',
       'terminated with non-0 error code 143',
       'Unexpected termination of command',
+      // [Vue warn]: A plugin must either be a function or an object with an "install" function.
+      'A plugin must either be a function or an object with an "install" function',
+      // Network errors when fetching from external APIs (star-wars.brillout.com)
+      'Client network socket disconnected before secure TLS connection was established',
     ].some((t) => logText.includes(t)) ||
     //
     // TO-DO/eventually: move everything to the array above
