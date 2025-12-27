@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "compatibility_date": "2025-08-06",
+  "compatibility_flags": ["nodejs_compat"],
   "name": "vike_examples_cloudflare-workers-react",
   "vars": {
     "SOME_ENV_VAR": "some-value"

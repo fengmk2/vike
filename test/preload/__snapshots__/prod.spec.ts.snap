@@ -44,6 +44,13 @@ exports[`preload tags > Preload Default 1`] = `
     "mediaType": "text/javascript",
     "src": "/assets/chunks/chunk-$HASH.js",
   },
+  {
+    "assetType": "script",
+    "earlyHintLink": "</assets/chunks/chunk-$HASH.js>; rel=modulepreload; as=script",
+    "isEntry": false,
+    "mediaType": "text/javascript",
+    "src": "/assets/chunks/chunk-$HASH.js",
+  },
 ]
 `;
 
@@ -60,6 +67,7 @@ exports[`preload tags > Preload Default 2`] = `
         <script id="vike_globalContext" type="application/json" nonce="12345689">{}</script>
         <script src="/assets/entries/entry-server-routing.$HASH.js" type="module" async nonce="12345689"></script>
         <link rel="modulepreload" href="/assets/entries/pages_index.$HASH.js" as="script" type="text/javascript">
+        <link rel="modulepreload" href="/assets/chunks/chunk-$HASH.js" as="script" type="text/javascript">
         <link rel="modulepreload" href="/assets/chunks/chunk-$HASH.js" as="script" type="text/javascript">
       </body>
     </html>"
@@ -101,6 +109,13 @@ exports[`preload tags > Preload Disabled 1`] = `
     "isEntry": false,
     "mediaType": "text/javascript",
     "src": "/assets/entries/pages_preload-disabled.$HASH.js",
+  },
+  {
+    "assetType": "script",
+    "earlyHintLink": "</assets/chunks/chunk-$HASH.js>; rel=modulepreload; as=script",
+    "isEntry": false,
+    "mediaType": "text/javascript",
+    "src": "/assets/chunks/chunk-$HASH.js",
   },
   {
     "assetType": "script",
@@ -171,6 +186,13 @@ exports[`preload tags > Preload Eager 1`] = `
     "mediaType": "text/javascript",
     "src": "/assets/chunks/chunk-$HASH.js",
   },
+  {
+    "assetType": "script",
+    "earlyHintLink": "</assets/chunks/chunk-$HASH.js>; rel=modulepreload; as=script",
+    "isEntry": false,
+    "mediaType": "text/javascript",
+    "src": "/assets/chunks/chunk-$HASH.js",
+  },
 ]
 `;
 
@@ -183,6 +205,7 @@ exports[`preload tags > Preload Eager 2`] = `
         <link rel="preload" href="/assets/static/Sono-Light.$HASH.ttf" as="font" type="font/ttf" crossorigin>
         <link rel="preload" href="/assets/static/logo.$HASH.svg" as="image" type="image/svg+xml">
         <link rel="modulepreload" href="/assets/entries/pages_preload-eager.$HASH.js" as="script" type="text/javascript">
+        <link rel="modulepreload" href="/assets/chunks/chunk-$HASH.js" as="script" type="text/javascript">
         <link rel="modulepreload" href="/assets/chunks/chunk-$HASH.js" as="script" type="text/javascript">
       </head>
       <body>
@@ -238,6 +261,13 @@ exports[`preload tags > Preload Images 1`] = `
     "mediaType": "text/javascript",
     "src": "/assets/chunks/chunk-$HASH.js",
   },
+  {
+    "assetType": "script",
+    "earlyHintLink": "</assets/chunks/chunk-$HASH.js>; rel=modulepreload; as=script",
+    "isEntry": false,
+    "mediaType": "text/javascript",
+    "src": "/assets/chunks/chunk-$HASH.js",
+  },
 ]
 `;
 
@@ -255,6 +285,7 @@ exports[`preload tags > Preload Images 2`] = `
         <script id="vike_globalContext" type="application/json" nonce="12345689">{}</script>
         <script src="/assets/entries/entry-server-routing.$HASH.js" type="module" async nonce="12345689"></script>
         <link rel="modulepreload" href="/assets/entries/pages_preload-images.$HASH.js" as="script" type="text/javascript">
+        <link rel="modulepreload" href="/assets/chunks/chunk-$HASH.js" as="script" type="text/javascript">
         <link rel="modulepreload" href="/assets/chunks/chunk-$HASH.js" as="script" type="text/javascript">
       </body>
     </html>"
