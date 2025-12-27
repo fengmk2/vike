@@ -20,6 +20,8 @@ export default defineConfig({
           include: ['test/**/*.spec.ts'],
           name: 'e2e',
           env,
+          // Prevent race conditions when tests in the same directory share resources
+          fileParallelism: false,
         },
       },
     ],
