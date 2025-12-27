@@ -58,6 +58,7 @@ function checkIsEnabled(config: ResolvedConfig) {
   const isEnabled = !minify
   // Avoid the legal comments inserted in the transform() hook to be removed.
   // https://github.com/vitejs/vite/issues/21085#issuecomment-3502781005
+  // @ts-ignore - esbuild is deprecated in Vite 8, oxc is the new option (auto-converted)
   if (isEnabled && config.esbuild) config.esbuild.legalComments = 'inline'
   return isEnabled
 }
