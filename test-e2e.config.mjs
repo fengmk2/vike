@@ -153,6 +153,25 @@ but you've requested "2025-07-18". Falling back to "2025-07-12"...
 
       // [vike][request(1)][Warning] The onBeforeRender() hook defined by /renderer/+onBeforeRender.js is slow: it's taking more than 4 seconds (https://vike.dev/hooksTimeout)
       "is slow: it's taking more than",
+      // Vite 8 deprecation/recommendation warnings
+      // [vite:react-babel] We recommend switching to `@vitejs/plugin-react-oxc` for improved performance.
+      'We recommend switching to `@vitejs/plugin-react-oxc`',
+      // [vite:react-swc] We recommend switching to `@vitejs/plugin-react` for improved performance as no swc plugins are used.
+      'We recommend switching to `@vitejs/plugin-react` for improved performance',
+      // `transformWithEsbuild` is deprecated and will be removed in the future. Please migrate to `transformWithOxc`.
+      '`transformWithEsbuild` is deprecated',
+      // [vite] warning: `esbuild` option was specified by "vite:react-swc" plugin. This option is deprecated, please use `oxc` instead.
+      '`esbuild` option was specified by',
+      // [PLUGIN_TIMINGS] Warning: Your build spent significant time in plugins.
+      '[PLUGIN_TIMINGS] Warning:',
+      // `optimizeDeps.rollupOptions` / `ssr.optimizeDeps.rollupOptions` is deprecated. Use `optimizeDeps.rolldownOptions` instead.
+      'optimizeDeps.rollupOptions',
+      // Warning: Invalid input options (1 issue found) - For the "jsx". Invalid key: Expected never but received "jsx".
+      'Invalid input options',
+      // Exit code 143 is SIGTERM - normal termination when stopping dev server
+      'Command failed with exit code 143',
+      'terminated with non-0 error code 143',
+      'Unexpected termination of command',
     ].some((t) => logText.includes(t)) ||
     //
     // TO-DO/eventually: move everything to the array above
