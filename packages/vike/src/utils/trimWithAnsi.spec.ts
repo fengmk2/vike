@@ -1,5 +1,5 @@
 import { trimWithAnsi, trimWithAnsiTrailOnly } from './trimWithAnsi.js'
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 import pc from '@brillout/picocolors'
 
 // To inspect ANSI codes:

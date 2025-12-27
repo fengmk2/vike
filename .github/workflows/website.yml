@@ -1,4 +1,6 @@
 name: Website Deployment
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
 on:
   push:
     # Only deploy upon new commits to `main`

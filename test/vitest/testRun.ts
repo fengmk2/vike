@@ -1,7 +1,7 @@
 export { testRun }
 export { viteConfig }
 
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 const viteConfig = {
   logLevel: 'warn' as const,

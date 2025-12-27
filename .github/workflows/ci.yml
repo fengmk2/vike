@@ -1,6 +1,9 @@
 name: CI
 on: [ push, pull_request ]
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 jobs:
   prepare:
     # Prevent workflow being run twice, https://github.com/orgs/community/discussions/57827#discussioncomment-6579237

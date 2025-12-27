@@ -1,6 +1,6 @@
 import react from '@vitejs/plugin-react-swc'
 import vike from 'vike/plugin'
-import type { UserConfig } from 'vite'
+import type { UserConfig } from '@voidzero-dev/vite-plus'
 import vercel from 'vite-plugin-vercel'
 
 export default {

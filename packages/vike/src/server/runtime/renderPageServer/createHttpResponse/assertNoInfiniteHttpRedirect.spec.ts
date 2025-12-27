@@ -1,4 +1,4 @@
-import { expect, describe, it, assert } from 'vitest'
+import { expect, describe, it, assert } from '@voidzero-dev/vite-plus/test'
 import { stripAnsi } from '../../../utils.js'
 import { assertNoInfiniteHttpRedirect } from './assertNoInfiniteHttpRedirect.js'
 

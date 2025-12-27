@@ -1,5 +1,5 @@
 import { getExportPath } from './getExportPath.js'
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 describe('getExportPath()', () => {
   it('works', () => {

@@ -1,4 +1,7 @@
 name: Spellcheck
+
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
 on:
   push:
 jobs:

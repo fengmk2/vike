@@ -1,5 +1,5 @@
 import { applyStaticReplace, StaticReplace } from './applyStaticReplace.js'
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect } from '@voidzero-dev/vite-plus/test'
 import { readFileSync, readdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'

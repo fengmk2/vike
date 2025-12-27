@@ -1,4 +1,4 @@
-import { expect, describe, it, assert } from 'vitest'
+import { expect, describe, it, assert } from '@voidzero-dev/vite-plus/test'
 import { isDistinguishable, isPathAliasRecommended, parseNpmPackage } from './parseNpmPackage.js'
 
 describe('parseNpmPackage()', () => {

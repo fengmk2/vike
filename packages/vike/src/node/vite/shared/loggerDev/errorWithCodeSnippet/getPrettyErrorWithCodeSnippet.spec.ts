@@ -1,6 +1,6 @@
 import { getPrettyErrorWithCodeSnippet, isErrorWithCodeSnippet } from '../errorWithCodeSnippet.js'
 
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 import { stripAnsi } from '../../../utils.js'
 
 import { errBabelSolid } from './fixture-errors/errBabelSolid.js'

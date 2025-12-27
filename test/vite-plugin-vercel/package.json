@@ -23,7 +23,8 @@
     "typescript": "^5.9.3",
     "vike": "0.4.250",
     "vike-react": "^0.6.18",
-    "vite": "^7.0.6"
+    "vite": "catalog:",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "dependencies": {
     "vite-plugin-vercel": "^9.1.1"

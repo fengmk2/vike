@@ -1,6 +1,6 @@
 import { resolvePrecedence } from '../resolvePrecedence.js'
 import { resolveRouteString } from '../resolveRouteString.js'
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 describe('Route Strings Precedence', () => {
   it('basics', () => {

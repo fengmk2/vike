@@ -1,5 +1,5 @@
 import { parseUrl } from './parseUrl.js'
-import { assert, expect, describe, it } from 'vitest'
+import { assert, expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 describe('parseUrl', () => {
   it('basics', () => {

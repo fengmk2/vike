@@ -1,5 +1,5 @@
 import { injectAtOpeningTag, injectAtClosingTag } from './injectHtmlTags.js'
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 const htmlHead1 = '<html><head></head></html>'
 const htmlHead2 = `<html>
