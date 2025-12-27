@@ -1,5 +1,5 @@
 import { modifyUrl } from './modifyUrl.js'
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 describe('modifyUrl', () => {
   it('basics', () => {

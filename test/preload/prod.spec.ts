@@ -1,4 +1,4 @@
-import { beforeAll } from 'vitest'
+import { beforeAll } from '@voidzero-dev/vite-plus/test'
 import { build } from 'vike/api'
 import { testRun } from './testRun'
 

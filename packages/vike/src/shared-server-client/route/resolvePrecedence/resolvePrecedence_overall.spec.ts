@@ -1,5 +1,5 @@
 import { resolvePrecedence } from '../resolvePrecedence.js'
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 const routeFilesystemStatic = {
   routeType: 'FILESYSTEM' as const,

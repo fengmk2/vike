@@ -1,5 +1,5 @@
 import { normalizeUrlPathname, removeUrlOrigin, setUrlOrigin } from './parseUrl-extras.js'
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 describe('normalizeUrlPathname()', () => {
   it('works', () => {

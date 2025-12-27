@@ -1,6 +1,6 @@
 import { getPrettyErrMessage } from '../errorWithCodeSnippet.js'
 
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 describe('getPrettyErrMessage()', () => {
   const id = '/home/rom/code/vike/examples/react-full/components/Counter.tsx'

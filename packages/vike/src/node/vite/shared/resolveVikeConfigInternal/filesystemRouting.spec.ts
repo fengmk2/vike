@@ -4,7 +4,7 @@ import {
   getLogicalPath as getLogicalPath_,
   type LocationId,
 } from './filesystemRouting.js'
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 describe('getLocationId()', () => {
   it('works', () => {

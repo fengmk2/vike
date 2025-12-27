@@ -1,4 +1,4 @@
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 import { freezePartial } from './freezePartial.js'
 import pc from '@brillout/picocolors'
 

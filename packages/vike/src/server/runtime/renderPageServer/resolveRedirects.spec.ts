@@ -1,5 +1,5 @@
 import { resolveRouteStringRedirect } from './resolveRedirects.js'
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 
 // E2E tests at /test/playground/pages/redirects.e2e-tests.ts
 // https://github.com/vikejs/vike/blob/0e260ad6e64e98952138a90950e10e2d59d94a36/test/playground/pages/redirects.e2e-tests.ts

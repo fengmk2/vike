@@ -1,5 +1,5 @@
 import { getErrorHint } from '../addErrorHint'
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 import { error_cannot_use_import_outside_of_module } from './errors'
 
 describe('getErrorHint()', () => {

@@ -1,6 +1,6 @@
 import { stabilizeHashes } from './stabilizeHashes'
 
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 describe('preload tags', () => {
   it('Default preload strategy', async () => {
     expect(stabilizeHashes('/assets/_default.page.client.81bbaf22.js')).toBe('/assets/_default.page.client.$HASH.js')

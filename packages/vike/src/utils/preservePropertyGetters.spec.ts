@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, assert } from 'vitest'
+import { describe, it, expect, beforeEach, assert } from '@voidzero-dev/vite-plus/test'
 import { preservePropertyGetters } from './preservePropertyGetters.js'
 
 describe('preservePropertyGetters', () => {

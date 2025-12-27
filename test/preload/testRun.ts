@@ -1,6 +1,6 @@
 export { testRun }
 
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 import path from 'node:path'
 import { renderPage } from 'vike/server'
 import { stabilizeHashes } from './utils/stabilizeHashes'

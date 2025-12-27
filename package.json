@@ -7,12 +7,12 @@
     "// Build Vike": "",
     "build": "cd packages/vike/ && pnpm run build",
     "========= Test": "",
-    "test": "vitest run && test-e2e && test-types",
-    "test:units": "vitest --project unit",
-    "test:e2e": "vitest run --project e2e && test-e2e",
+    "test": "vite test run && test-e2e && test-types",
+    "test:units": "vite test --project unit",
+    "test:e2e": "vite test run --project e2e && test-e2e",
     "test:types": "test-types",
     "// https://github.com/vitejs/vite-ecosystem-ci/blob/6b5e66429c57047394cf7b7d8e052532ea03a414/tests/vike.ts#L14": "",
-    "test:vite-ecosystem-ci": "(export VITE_ECOSYSTEM_CI=true; vitest run && test-e2e --exclude test-deprecated-design && test-types)",
+    "test:vite-ecosystem-ci": "(export VITE_ECOSYSTEM_CI=true; vite test run && test-e2e --exclude test-deprecated-design && test-types)",
     "========= Docs": "",
     "// Develop website https://vike.dev locally": "",
     "docs": "cd docs/ && pnpm run dev",
@@ -43,7 +43,8 @@
     "@brillout/test-e2e": "^0.6.21",
     "@brillout/test-types": "^0.1.13",
     "playwright-chromium": "^1.57.0",
-    "vitest": "^4.0.16"
+    "vitest": "catalog:",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "packageManager": "pnpm@9.15.9"
 }

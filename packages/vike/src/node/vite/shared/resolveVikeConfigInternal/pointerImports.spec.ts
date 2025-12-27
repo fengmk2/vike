@@ -1,4 +1,4 @@
-import { expect, describe, it } from 'vitest'
+import { expect, describe, it } from '@voidzero-dev/vite-plus/test'
 import { transformPointerImports } from './pointerImports.js'
 
 function t(code: string) {

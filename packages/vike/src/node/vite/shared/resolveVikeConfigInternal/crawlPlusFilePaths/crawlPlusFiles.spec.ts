@@ -1,4 +1,4 @@
-import { expect, describe, it, assert } from 'vitest'
+import { expect, describe, it, assert } from '@voidzero-dev/vite-plus/test'
 import path from 'node:path'
 import fs from 'node:fs'
 // process.env.DEBUG = 'vike:crawl'

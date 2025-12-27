@@ -1,4 +1,4 @@
-import { describe, test, assert, expect } from 'vitest'
+import { describe, test, assert, expect } from '@voidzero-dev/vite-plus/test'
 import { build } from 'vike/api'
 import { stripAnsi } from '../../packages/vike/src/utils/colorsServer'
 

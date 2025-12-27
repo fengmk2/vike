@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from '@voidzero-dev/vite-plus'
 import react from '@vitejs/plugin-react'
 import vike from 'vike/plugin'
 import { cloudflare } from '@cloudflare/vite-plugin'

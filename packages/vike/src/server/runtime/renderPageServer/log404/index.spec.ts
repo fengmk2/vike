@@ -1,4 +1,4 @@
-import { expect, describe, it, assert } from 'vitest'
+import { expect, describe, it, assert } from '@voidzero-dev/vite-plus/test'
 import { getRoutesInfo } from '../log404/index.js'
 import { stripAnsi } from '../../../utils.js'
 import type { PageRoutes } from '../../../../shared-server-client/route/index.js'
